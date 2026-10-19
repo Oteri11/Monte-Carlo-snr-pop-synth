@@ -1,6 +1,6 @@
 import numpy as np
 import matplotlib.pyplot as plt
-import s17lc
+import sarbadhicary_scaling_module as s17lc
 
 # ==========================================
 # 1. Constants and Parameters
@@ -11,7 +11,7 @@ MAX_AGE = 100000     # Maximum theoretical observable age (years)
 Z_SCALE = 80         # Vertical scale height (pc)
 R_SUN = 8.5          # Solar Galactocentric distance (kpc)
 
-N_ITERATIONS = 500   # Number of Monte Carlo iterations
+N_ITERATIONS = 500000   # Number of Monte Carlo iterations
 survivor_counts = [] # List to store the number of survivors from each run
 
 # Legacy VLA Telescope Observational Limits (Reference Mask)
