@@ -144,7 +144,7 @@ for i in range(N_ITERATIONS):
     # Store the total number of survivors for this run
     survivor_counts.append(np.sum(detected_mask))
 
-print(f"Simulation complete! Mean recovered remnants: {np.mean(survivor_counts):.1f}. Plotting results...")
+print(f"Simulation complete! Mean recovered remnants: {np.mean(survivor_counts):.1f} $\\pm$ {np.std(survivor_counts, ddof=1):.1f}. Plotting results...")
 
 # ==========================================
 # 3. PLOT IMAGES
