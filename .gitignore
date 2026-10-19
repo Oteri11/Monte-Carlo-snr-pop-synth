@@ -1,0 +1,10 @@
+
+# LaTeX files
+*.tex
+*.bib
+*.aux
+*.log
+*.out
+*.bbl
+*.blg
+*.synctex.gz
